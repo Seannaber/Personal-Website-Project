@@ -123,7 +123,7 @@ img:hover {
 }
 
 ::selection {
-    background: red;
+    background: yellow;
 }
 
 @media all and (min-width: 480px) {
