@@ -131,6 +131,18 @@ img:hover {
 /*  box-shadow: 0 0 45px black; */
 }
 
+.contactlogo {
+  width: 50%;
+  display: inline;
+  margin: auto 0;
+  text-align: center;
+  padding-left: 10px;
+}
+
+.col-sm-3 {
+  text-align: center;
+}
+
 ::-moz-selection { /* Code for Firefox */
     background: yellow;
 }
