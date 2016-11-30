@@ -75,6 +75,19 @@ nav a:hover {
   transition: background-position 1s;
 }
 
+#contact {
+  margin: 0;
+  width: 100%;
+  background-image: url("../img/bg_contact.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 0 -15px;
+  -webkit-transition: height 1s; /* For Safari 3.1 to 6.0 */
+  transition: height 1s;
+  -webkit-transition: background-position 1s; /* For Safari 3.1 to 6.0 */
+  transition: background-position 1s;
+}
+
 h1 {
   font-family: 'Averia Serif Libre', cursive;
   font-size: 2.25em;
