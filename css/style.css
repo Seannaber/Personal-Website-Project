@@ -16,6 +16,17 @@ nav {
   margin: 0 auto;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h2 a:hover {
+  background-color: #b4fc80;
+  text-decoration: none;
+  color: black;
+}
+
 header p {
   color: black;
   font-family: 'Montserrat', sans-serif;
@@ -38,7 +49,7 @@ nav a {
   transition: font-size 1s;
 }
 
-nav a:hover {
+a:hover {
   background-color: #b4fc80;
   text-decoration: none;
   color: black;
@@ -132,7 +143,8 @@ img:hover {
 }
 
 .contactlogo {
-  width: 50%;
+  width: 120px;
+  height: 100px;
   display: inline;
   margin: auto 0;
   text-align: center;
