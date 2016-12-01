@@ -19,12 +19,16 @@ nav {
 a {
   text-decoration: none;
   color: black;
+  -webkit-transition: background-color .5s; /* For Safari 3.1 to 6.0 */
+  transition: background-color .5s;
 }
 
 h2 a:hover {
   background-color: #b4fc80;
   text-decoration: none;
   color: black;
+  -webkit-transition: background-color .5s; /* For Safari 3.1 to 6.0 */
+  transition: background-color .5s;
 }
 
 header p {
@@ -47,12 +51,16 @@ nav a {
   font-size: .65em;
   -webkit-transition: font-size 1s; /* For Safari 3.1 to 6.0 */
   transition: font-size 1s;
+  -webkit-transition: background-color .5s; /* For Safari 3.1 to 6.0 */
+  transition: background-color .5s;
 }
 
 a:hover {
   background-color: #b4fc80;
   text-decoration: none;
   color: black;
+  -webkit-transition: background-color .5s; /* For Safari 3.1 to 6.0 */
+  transition: background-color .5s;
 }
 
 #active {
