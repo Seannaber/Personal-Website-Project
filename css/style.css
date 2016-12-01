@@ -107,8 +107,14 @@ a:hover {
   transition: background-position 1s;
 }
 
+button.btn.btn-default {
+  margin-bottom: 20px;
+}
+
 .contacthead {
   display: inline;
+  position: relative;
+  top: -7px;
 }
 
 h1 {
@@ -163,10 +169,6 @@ img:hover {
   padding-left: 10px;
 }
 
-.col-sm-3 {
-  text-align: center;
-}
-
 .btn-default:hover {
     background-color: #b4fc80;
     border-color: white;
@@ -206,11 +208,14 @@ img:hover {
     padding: 45px 0;
    }
 
-   h2 { padding-top: 10px; }
+   h2 {
+     padding-top: 10px;
+     font-size: 1.5em;
+   }
 
    p {
      padding-bottom: 0;
-     font-size: 1.25em;
+     font-size: 1.5em;
    }
 }
 
@@ -251,7 +256,7 @@ img:hover {
   }
 
   h2 {
-    font-size: 1.5em;
+    font-size: 1.4em;
   }
 
   img { border-radius: 15px; }
