@@ -19,62 +19,37 @@
   <header>
     <p>Sean Naber</p>
     <nav class="navigation">
-    <a href="index.html">HOME</a>
-    <a href="contact.html">CONTACT</a>
-    <a href="gallery.html">GALLERY</a>
-    <a href="#" id="active">ABOUT ME</a>
+      <a href="#" id="active">HOME</a>
+      <a href="contact.html">CONTACT</a>
+      <a href="gallery.html">GALLERY</a>
+      <a href="about.html">ABOUT ME</a>
     </nav>
   </header>
   <div id="about">
     <h1>Print<br />Designer<br />goes<br />digital</h1>
   </div>
-  <div id="aboutcontainer">
-    <div class="row">
-      <div class="col-sm-4">
+  <main id="aboutcontainer">
+    <section class="row">
+      <article class="col-sm-4">
         <h2>WHO AM I?</h2>
-        <p>
+        <p id="jstest" onmouseover="changeBg('yellow');" onmouseout="changeBg('white');">
           I'm a print designer by trade with over ten years of experience in the field. My concentration has been retail design, including, but not limited to, signage, preprint, newspaper, large format advertising, web graphics and e-mail.
         </p>
-      </div>
-      <div class="col-sm-4">
+      </article>
+      <article class="col-sm-4">
         <h2>WHAT'S THIS ALL ABOUT?</h2>
         <p>
           In an effort to learn web development from the ground up, this entire site will be hand-coded. Not a single part of it has been copied from any source. When I'm done, I'll have a basic understanding of HTML5, CSS3, Javascript and jQuery.
         </p>
-      </div>
-      <div class="col-sm-4">
+      </article>
+      <article class="col-sm-4">
         <h2>OTHER INTERESTS</h2>
         <p>
           My interests outside of design and coding include listening to music, cooking and way too much fantasy football.
         </p>
-      </div>
-    </div>
-  </div>
-
-<!--
-      <div class="about">
-      <h2>WHO AM I?</h2>
-      <p>
-        I'm a print designer by trade with over ten years of experience in the field. My concentration has been retail design, including, but not limited to, signage, preprint, newspaper, large format advertising, web graphics and e-mail.
-      </p>
-    </div>
-    <div class="about">
-      <h2>WHAT'S THIS ALL ABOUT?</h2>
-      <p>
-        In an effort to learn web development from the ground up, this entire site will be hand-coded. Not a single part of it has been copied from any source. When I'm done, I'll have a basic understanding of HTML5, CSS3, Javascript and jQuery.
-      </p>
-    </div>
-    <div class="about">
-      <h2>OTHER INTERESTS</h2>
-      <p>
-        My interests outside of design and coding include listening to music, cooking and way too much fantasy football.
-      </p>
-    </div>
-  </div>
-   <h2>MORE ABOUT ME</h2>
-    <p>
-      I'm recently married to my beautiful wife, Becca, and live in Silver Spring, MD with two cats named Gustavo and Peppers. <a href="http://www.cnn.com">Test Link ></a>
-    </p> -->
-
+      </article>
+    </section>
+  </main>
+  <script src="js/script.js"></script>
 </body>
 </html>
